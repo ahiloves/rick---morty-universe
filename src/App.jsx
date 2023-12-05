@@ -17,10 +17,10 @@ function App() {
 
   return (
     
-    <main className="bg-cover bg-right  h-full " style={{ backgroundImage: "url('./public/fondo.jpg')" }}>
+    <main className="bg-cover bg-right  h-full " style={{ backgroundImage: "url('/fondo.jpg')" }}>
     <div className=" esfera-container">
-      <img style={{ width: '500px', height: '500px' }} className="esferica-giratoria animate-pulse mx-auto" src="./public/circulo.svg" alt="Esfera Giratoria" />
-      <img style={{ width: '600px', height: '100px' }} className="nombre-imagen absolute top-40 left-1/2 transform -translate-x-1/2 -translate-y-1/2 " src="./public/nombre.svg" alt="Imagen Estática" />
+      <img style={{ width: '500px', height: '500px' }} className="esferica-giratoria animate-pulse mx-auto" src="/circulo.svg" alt="Esfera Giratoria" />
+      <img style={{ width: '600px', height: '100px' }} className="nombre-imagen absolute top-40 left-1/2 transform -translate-x-1/2 -translate-y-1/2 " src="/nombre.svg" alt="Imagen Estática" />
     </div>
     <main> 
       <Location locationInfo={locationInfo} setLocationInfo={setLocationInfo} />
